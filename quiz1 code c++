@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+int main() {
+
+	char input1;
+	char input2;
+	char input3;
+	
+
+	cout << "Do you like (W)inner or S(u)mmer?" << endl;
+	cin >> input1;
+	cout << "Do you like (s)nowboarding or s(k)iing?" << endl;
+	cin >> input2;
+	cout << "Do you like the (b)earch or (c)amping?" << endl;
+	cin >> input3;
+
+	if (input1 == 'u') {
+		if (input1 == 'W')
+			cout << "You're the exciting type" << endl;
+		else if (input2 == 'k')
+			cout << "You're the out going type" << endl;
+		else if (input2 == 's')
+			cout << "You're adventurous." << endl;
+
+	}
+	if (input3 == 'b') {
+		if (input3 == 'c') {
+			cout << "go to St. George Island State Park" << endl;
+			cout << "Indian River" << endl;
+				
+			
+		}
+
+	}
+	else
+		cout << "Sorry, that's not an answer I understand." << endl;
+
+}
